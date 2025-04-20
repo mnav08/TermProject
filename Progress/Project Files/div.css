@@ -6,10 +6,14 @@
 	gap: 20px;
 	justify-content: space-between;
 	margin-bottom: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .founder {
-   flex: 1 1 0;                
+   flex: 0 1 300px;
+   max-width: 320px;           
    background-color: #f9f9f9;
    padding: 20px;
    border: 1px solid #ccc;
@@ -17,10 +21,10 @@
    min-width: 0;
 }
 
-body {
+html, body {
 	margin-left: auto;
 	margin-right: auto;
-	width: 65.9%;
+	width: 80%;
 	padding-left: 4.55%;
 	padding-right: 4.55%;
 	clear: none;
