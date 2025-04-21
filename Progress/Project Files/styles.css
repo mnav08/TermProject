@@ -74,3 +74,63 @@
     font-weight: lighter;
     font-style: italic;
   }
+  
+  /* PETS PREVIEW GRID */
+  .petContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal width columns */
+    grid-template-rows: repeat(3, 1fr);    /* Creates 3 equal height rows */
+    width: auto; 
+    height: 350px; 
+    padding: 30px;
+    border: 1px solid black; 
+    row-gap: 10px;    /* Adds a 10px gap between rows */
+    column-gap: 20px; /* Adds a 20px gap between columns */
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.6); 
+    margin:20px;
+  }
+  
+  .petInfo{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .petContainer .petInfo img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  /* Button style */
+  .button-pets {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .button-pets:hover {
+    background-color:rgb(150,150,150);
+    color: black;
+  }
+
+  /* section style rules */
+  section{
+    margin: 30px;
+  }
+
+  /* Map image styles */
+  .location-img{
+    margin-left: 100px;
+  }
+  
+  .location-img img{
+    border: 1px solid black; 
+  }
