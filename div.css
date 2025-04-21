@@ -1,0 +1,41 @@
+
+
+
+.founder-container {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.founder {
+   flex: 0 1 300px;
+   max-width: 320px;           
+   background-color: #f9f9f9;
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+   min-width: 0;
+}
+
+html, body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+.nobullets {
+	list-style-type: none;
+}
+
+p {
+	margin-bottom: 16px;
+}
