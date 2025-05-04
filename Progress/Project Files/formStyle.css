@@ -1,0 +1,22 @@
+.button-submit {
+    display: inline-block;
+    padding: 0.75em 1.5em; /* Use em for padding */
+    font-size: 1em; /* Relative font size */
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .button-submit:hover {
+    background-color:rgb(150,150,150);
+    color: black;
+  }
+
+  form label{
+    color: black;
+    font-weight: bold;
+  }
